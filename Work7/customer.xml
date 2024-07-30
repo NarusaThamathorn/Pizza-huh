@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="customers.xsl" type="text/xsl"?>
+
+<!DOCTYPE customer [
+<!ELEMENT customer (customerdata)>
+<!ELEMENT customerdata (ID ,customername, customerlastname, gender, tel)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT customername (#PCDATA)>
+<!ELEMENT customerlastname (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+]>
+
+<customer>
+    <customerdata>
+        <ID>001</ID>
+        <customername>ธัญชนก</customername>
+        <customerlastname>ทองใส</customerlastname>
+        <gender>F</gender>
+        <tel>0654982345</tel>
+    </customerdata>
+
+    <customerdata>
+        <ID>002</ID>
+        <customername>อภิชาติ</customername>
+        <customerlastname>แสงบัว</customerlastname>
+        <gender>M</gender>
+        <tel>0846952135</tel>
+    </customerdata>
+
+    <customerdata>
+        <ID>003</ID>
+        <customername>พัชรินทร์</customername>
+        <customerlastname>ทองเจือ</customerlastname>
+        <gender>F</gender>
+        <tel>0921456785</tel>
+    </customerdata>
+
+    <customerdata>
+        <ID>004</ID>
+        <customername>ธนวัฒน์</customername>
+        <customerlastname>ขันตี</customerlastname>
+        <gender>M</gender>
+        <tel>0812645442</tel>
+    </customerdata>
+
+    <customerdata>
+        <ID>005</ID>
+        <customername>ศุภชัย</customername>
+        <customerlastname>แดนดี</customerlastname>
+        <gender>M</gender>
+        <tel>0981641158</tel>
+    </customerdata>
+</customer>

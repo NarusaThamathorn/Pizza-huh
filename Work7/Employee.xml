@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Employee.xsl" type="text/xsl"?>
+
+<!DOCTYPE Employee [
+<!ELEMENT Employee (Employeedata)>
+<!ELEMENT Employeedata (ID ,Employeename, Employeelastname, Position, salary)>
+<!ELEMENT ID (#PCDATA)>
+<!ELEMENT Employeename (#PCDATA)>
+<!ELEMENT Employeelastname (#PCDATA)>
+<!ELEMENT Position (#PCDATA)>
+<!ELEMENT tel (#PCDATA)>
+]>
+
+<Employee>
+    <Employeedata>
+        <ID>MG123657</ID>
+        <Employeename>นภัสสร </Employeename>
+        <Employeelastname>ชัยวงศ์</Employeelastname>
+        <Position>ผู้จัดการ</Position>
+        <salary>25,000</salary>
+    </Employeedata>
+
+    <Employeedata>
+        <ID>AS26849</ID>
+        <Employeename>ณัฐวุฒิ</Employeename>
+        <Employeelastname>สุขสวัสดิ์</Employeelastname>
+        <Position>ผู้ช่วยผู้จัดการ</Position>
+        <salary>19,000</salary>
+    </Employeedata>
+
+    <Employeedata>
+        <ID>SV64855</ID>
+        <Employeename>พัชรี</Employeename>
+        <Employeelastname>วงศ์คำ</Employeelastname>
+        <Position>พนักงานบริการ</Position>
+        <salary>13,000</salary>
+    </Employeedata>
+
+    <Employeedata>
+        <ID>HS65447</ID>
+        <Employeename>วรัญญา</Employeename>
+        <Employeelastname>แสงทอง</Employeelastname>
+        <Position>พนักงานครัว</Position>
+        <salary>14,000</salary>
+    </Employeedata>
+
+    <Employeedata>
+        <ID>CS34848</ID>
+        <Employeename>กมลชนก</Employeename>
+        <Employeelastname>ศรีสุข</Employeelastname>
+        <Position>แคชเชียร์</Position>
+        <salary>15,000</salary>
+    </Employeedata>
+</Employee>
