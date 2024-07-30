@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Products.xsl" type="text/xsl"?>
+
+<!DOCTYPE Product [
+<!ELEMENT Product (Productdata)>
+<!ELEMENT Productdata (Size, Menu, crust, Price, Category)>
+<!ELEMENT Size (#PCDATA)>
+<!ELEMENT Menu (#PCDATA)>
+<!ELEMENT crust (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Category (#PCDATA)>
+]>
+
+<Product>
+    <Productdata>
+        <Size>M</Size>
+        <Menu>Seafood Extreme</Menu>
+        <crust>Original</crust>
+        <Price>399</Price>
+        <Category>SEAFOOD</Category>
+    </Productdata>
+
+    <Productdata>
+        <Size>M</Size>
+        <Menu>Bacon Hokkaido Cheese</Menu>
+        <crust>Thin</crust>
+        <Price>379</Price>
+        <Category>SUPREME</Category>
+    </Productdata>
+
+    <Productdata>
+        <Size>L</Size>
+        <Menu>Island Delight</Menu>
+        <crust>Original</crust>
+        <Price>469</Price>
+        <Category>DETROIT</Category>
+    </Productdata>
+
+    <Productdata>
+        <Size>M</Size>
+        <Menu>Pepperoni</Menu>
+        <crust>Thin</crust>
+        <Price>299</Price>
+        <Category>LOVER</Category>
+    </Productdata>
+
+    <Productdata>
+        <Size>L</Size>
+        <Menu>Spicy Chicken BBQ</Menu>
+        <crust>Thin</crust>
+        <Price>349</Price>
+        <Category>DELUXE</Category>
+    </Productdata>
+</Product>
